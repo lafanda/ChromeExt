@@ -1,0 +1,44 @@
+
+.hover-box {
+    position: absolute;
+    top: -20px;
+    left: -200px; /* Adjust this value to control the horizontal distance from the 'o' */
+    width: 180px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .hover-box-right {
+    position: absolute;
+    top: -20px;
+    right: -200px; /* Adjust this value to control the horizontal distance from the 'o' */
+    width: 180px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .hover-container {
+    position: relative;
+  }
+  
+  .hover-content {
+    display: block;
+  }
+  
+  .o-marker {
+    display: inline-block;
+    margin-right: 5px;
+  }
+ 
+  .sticky {
+    position: fixed;
+    top: 0;
+}
+
+  
